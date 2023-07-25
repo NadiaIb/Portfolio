@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(203, 224, 245);
+}
+
+.name {
+  margin-left: 30px;
+}
+#nav-bar {
+  display: flex;
+}
+
+.navigation {
+  margin-right: 30px;
+}
+
+.nav-links li {
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+}
+.nav-links li a {
+  text-underline-offset: 1rem;
+  color: black;
+}
