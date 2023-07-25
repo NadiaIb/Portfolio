@@ -3,14 +3,16 @@ body {
   padding: 0;
 }
 
+/* header */
 .header-container {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(203, 224, 245);
 }
 
-.name {
+.name a {
   margin-left: 30px;
+  text-decoration: none;
+  color: black;
 }
 #nav-bar {
   display: flex;
@@ -28,4 +30,23 @@ body {
 .nav-links li a {
   text-underline-offset: 1rem;
   color: black;
+}
+
+.about-me-container {
+  background-color: rgb(203, 224, 245);
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-bottom: 1rem;
+}
+
+.about-me-paras {
+  font-family: "Cormorant";
+  line-height: 1.5rem;
+}
+
+.console-log a {
+  text-decoration: none;
+  color: blue
 }
