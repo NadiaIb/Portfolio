@@ -48,5 +48,37 @@ body {
 
 .console-log a {
   text-decoration: none;
-  color: blue
+  color: blue;
+}
+
+/* projects */
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#projects-container li {
+  list-style: none;
+}
+
+#projects-container ul {
+  padding: 0px;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-li {
+  border: 2px solid blue;
+  border-radius: 20px;
+  width: 50%;
+  padding: 5px;
+  margin: 20px;
+}
+
+.single-li:hover{
+  background-color: rgb(203, 224, 245);
 }
