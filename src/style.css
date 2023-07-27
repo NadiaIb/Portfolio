@@ -52,6 +52,7 @@ body {
 }
 
 /* projects */
+
 #projects-container {
   display: flex;
   flex-direction: column;
@@ -69,16 +70,59 @@ body {
 .ul-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+
+  /* width: 70%; */
 }
 
 .single-li {
   border: 2px solid blue;
   border-radius: 20px;
-  width: 50%;
-  padding: 5px;
+  flex: 1;
+  max-width: 30%;
+
+  padding: 1px;
   margin: 20px;
 }
 
-.single-li:hover{
+.single-li:hover {
   background-color: rgb(203, 224, 245);
+}
+
+.project-image {
+  width: calc(
+    100% - 10px
+  ); /* Subtract twice the margin value (5px * 2) from 100% */
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow around the image */
+  margin: 5px;
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+/* .projects-header {
+  border: 2px solid blue;
+  max-width: 20%;
+} */
+.project-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+.project-names {
+  font-family: "Cormorant";
+  font-style: italic;
+  font-size: 18px;
+}
+
+.project-description {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* experience */
+
+.checkMark {
+width: 1rem;
 }

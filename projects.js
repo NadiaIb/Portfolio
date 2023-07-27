@@ -21,4 +21,24 @@ const projectsArr = [
   },
 ];
 
-export {projectsArr};
+const skillsArr = [
+  {
+    title: "Frontend",
+    image: "../assets/checkmark.png",
+    skill1: "JavaScript",
+    skill2: "React",
+    skill3: "HTML",
+    skill4: "CSS",
+    skill5: "React-Three-Fiber",
+  },
+  {
+    title: "Backend",
+    image: "../assets/checkmark.png",
+    skill1: "Node.js",
+    skill2: "Jest",
+    skill3: "PostgreSQL",
+    skill4: "MongoDB",
+  },
+];
+
+export { projectsArr, skillsArr };
