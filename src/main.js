@@ -3,6 +3,8 @@ import { projectsArr, skillsArr } from "../projects.js";
 const projectsContainer = document.getElementById("projects-container");
 const experienceContainer = document.getElementById("experience-container");
 const contactInfo = document.getElementById("contact-container");
+const textElement = document.getElementById('typewriter-text');
+
 
 function projectsHtml() {
   //create ul
@@ -64,12 +66,28 @@ function contact() {
   contactInfo.appendChild(newUl);
 
   const newLi = document.createElement("li");
-  newLi.innerHTML = (
-    `
+  newLi.innerHTML = `
     <image class="emailImg" src="../assets/email.png">
-    <a href="mailto: nadia-ibrahim@hotmail.com">nadia-ibrahim@hotmail.com</a>
-    `
-  );
+    <a class="contactLinks" href="mailto: nadia-ibrahim@hotmail.com">nadia-ibrahim@hotmail.com</a>
+    <image class="linkedin" src="../assets/linkedin.png">
+    <a class="contactLinks" href="https://www.linkedin.com/in/nadia-ibrahim-1422a4109/" target="_blank">Linkedin</a>
+    `;
   newUl.appendChild(newLi);
 }
 contact();
+
+
+const text = textElement.textContent.trim();
+textElement.textContent = '';
+
+let index = 0;
+
+function typeWriter() {
+  if (index < text.length) {
+    textElement.textContent += text.charAt(index);
+    index++;
+    setTimeout(typeWriter, 100); // Adjust the speed of the typewriter effect here (in milliseconds)
+  }
+}
+
+typeWriter();
