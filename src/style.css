@@ -33,7 +33,7 @@ body {
 }
 
 .about-me-container {
-  background-color: rgb(203, 224, 245);
+  /* background-color: rgb(203, 224, 245); */
   text-align: center;
   padding-top: 1rem;
   padding-left: 7rem;
@@ -44,11 +44,27 @@ body {
 .about-me-paras {
   font-family: "Cormorant";
   line-height: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .console-log a {
   text-decoration: none;
   color: blue;
+}
+
+.cv-btn {
+  font-weight: bold;
+  padding: 13px;
+  border-radius: 20px;
+  border: solid;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.cv-btn:hover {
+  background-color: rgb(53, 53, 53);
+  color: white;
 }
 
 /* projects */
@@ -59,7 +75,7 @@ body {
   text-align: center;
 }
 
-#projects-container li {
+li {
   list-style: none;
 }
 
@@ -69,8 +85,9 @@ body {
 
 .ul-container {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: center;
+  flex-wrap: wrap;
 
   /* width: 70%; */
 }
@@ -79,9 +96,11 @@ body {
   border: 2px solid blue;
   border-radius: 20px;
   flex: 1;
-  max-width: 30%;
-
-  padding: 1px;
+  /* max-width: 30%; */
+  min-width: 300px;
+  max-width: 500px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin: 20px;
 }
 
@@ -100,10 +119,6 @@ body {
   box-sizing: border-box; /* Include padding and border in the element's total width */
 }
 
-/* .projects-header {
-  border: 2px solid blue;
-  max-width: 20%;
-} */
 .project-title {
   font-family: "Roboto";
   font-style: normal;
@@ -113,16 +128,74 @@ body {
   font-family: "Cormorant";
   font-style: italic;
   font-size: 18px;
+  margin-bottom: 40px;
 }
 
+.project-headers {
+  margin-top: 25px;
+}
 .project-description {
+  margin-top: 30px;
   font-family: "Cormorant";
   font-style: normal;
   font-weight: 400;
 }
 
+.href {
+  text-decoration: none;
+  color: black;
+}
+
 /* experience */
 
 .checkMark {
-width: 1rem;
+  width: 1rem;
+}
+
+#experience-container {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.resume-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume-li {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  list-style: none;
+  border: solid blue 2px;
+  /* margin-top: 10px; */
+  border-radius: 20px;
+  /* margin: 0 auto; */
+  margin: 20px;
+}
+
+.resume-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3rem;
+}
+
+/* CONTACT */
+
+.contact-container {
+  /* text-align: center; */
+}
+
+.contact-header{
+text-align: center; }
+
+.emailImg{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 1rem;
 }
