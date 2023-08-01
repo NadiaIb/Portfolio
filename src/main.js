@@ -1,4 +1,4 @@
-import { projectsArr, skillsArr } from "../projects.js";
+import { projectsArr, skillsArr } from "./projects.js";
 
 const projectsContainer = document.getElementById("projects-container");
 const experienceContainer = document.getElementById("experience-container");
