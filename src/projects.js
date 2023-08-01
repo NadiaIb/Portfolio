@@ -1,8 +1,7 @@
-
 const projectsArr = [
   {
     name: "GameGeek Reviews",
-    image: "../public/gamegeek.jpeg",
+    image: "./public/gamegeek.jpeg",
     techStack: "React, CSS3, Express, PostgreSQL",
     hostedSite: "https://main--gamegeek-review.netlify.app/",
     frontend: "https://github.com/NadiaIb/GameGeek-FE",
@@ -12,7 +11,7 @@ const projectsArr = [
   },
   {
     name: "Get Your Steps In",
-    image: "../public/game.jpeg",
+    image: "./public/game.jpeg",
     techStack: "React, CSS3, Express, PostgreSQL",
     hostedSite: "https://getyourstepsin.netlify.app/",
     frontend: "https://github.com/NadiaIb/frontend-get-your-steps-in",
@@ -25,7 +24,7 @@ const projectsArr = [
 const skillsArr = [
   {
     title: "Frontend",
-    image: "../public/checkmark.png",
+    image: "./public/checkmark.png",
     skill1: "JavaScript",
     skill2: "React",
     skill3: "HTML",
@@ -34,7 +33,7 @@ const skillsArr = [
   },
   {
     title: "Backend",
-    image: "../public/checkmark.png",
+    image: "./public/checkmark.png",
     skill1: "Node.js",
     skill2: "Jest",
     skill3: "PostgreSQL",

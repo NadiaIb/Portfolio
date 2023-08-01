@@ -67,9 +67,9 @@ function contact() {
 
   const newLi = document.createElement("li");
   newLi.innerHTML = `
-    <image class="emailImg" src="../public/email.png">
+    <image class="emailImg" src="./public/email.png">
     <a class="contactLinks" href="mailto: nadia-ibrahim@hotmail.com">nadia-ibrahim@hotmail.com</a>
-    <image class="linkedin" src="../public/linkedin.png">
+    <image class="linkedin" src="./public/linkedin.png">
     <a class="contactLinks" href="https://www.linkedin.com/in/nadia-ibrahim-1422a4109/" target="_blank">Linkedin</a>
     `;
   newUl.appendChild(newLi);
