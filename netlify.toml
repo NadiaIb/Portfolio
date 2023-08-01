@@ -3,5 +3,3 @@
   to = "/src/index.html"
   status = 200
 
-[build]
-  publish = "public"
