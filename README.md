@@ -10,7 +10,7 @@ Live Version:
 To run this project locally, you will need to fork this repo or fork as follows:
 
 ```
-git clone https://github.com/nadia-ibrahim/Portfolio
+git clone https://github.com/NadiaIb/Portfolio.git
 cd Portfolio
 ```
 
