@@ -9,6 +9,7 @@ const projectsArr = [
     description:
       " Unleash the full potential of a React-based, full-stack games review app! Interact with a PostgreSQL back end through API calls, adding, deleting, and sorting comments on games by date, comment count, and votes. Engage, discover, and be part of a vibrant gaming community!",
   },
+  
   {
     name: "Get Your Steps In",
     image: "./public/GYSI-game.png",
