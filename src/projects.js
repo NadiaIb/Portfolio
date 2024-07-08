@@ -2,7 +2,7 @@ const projectsArr = [
   {
     name: "GameGeek Reviews",
     image: "./public/review-site.png",
-    techStack: "React, CSS3, Express, PostgreSQL",
+    techStack: "React.js, CSS3, Node/Express.js, PostgreSQL",
     hostedSite: "https://main--gamegeek-review.netlify.app/",
     frontend: "https://github.com/NadiaIb/GameGeek-FE",
     backend: "https://github.com/NadiaIb/GameGeek-BE",
@@ -13,7 +13,7 @@ const projectsArr = [
   {
     name: "Get Your Steps In",
     image: "./public/GYSI-game.png",
-    techStack: "React, CSS3, Express, PostgreSQL",
+    techStack: "React Three Fibre, CSS3, Express.js, MongoDB/Mongoose",
     hostedSite: "https://getyourstepsin.netlify.app/",
     frontend: "https://github.com/NadiaIb/frontend-get-your-steps-in",
     backend: "https://github.com/NadiaIb/backend-get-your-steps-in",
