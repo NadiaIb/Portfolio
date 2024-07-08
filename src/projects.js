@@ -27,18 +27,19 @@ const skillsArr = [
     title: "Frontend",
     image: "./public/checkmark.png",
     skill1: "JavaScript",
-    skill2: "React",
-    skill3: "HTML",
-    skill4: "CSS",
-    skill5: "React-Three-Fiber",
+    skill2: "React.js",
+    skill3: "HTML5",
+    skill4: "CSS3",
+    skill5: "React-Three-Fiber"
   },
   {
     title: "Backend",
     image: "./public/checkmark.png",
-    skill1: "Node.js",
+    skill1: "Node/Express.js",
     skill2: "Jest",
     skill3: "PostgreSQL",
-    skill4: "MongoDB",
+    skill4: "MongoDB/Mongoose",
+    skill5: "Firebase"
   },
 ];
 
